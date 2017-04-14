@@ -25,3 +25,30 @@
 *人与计算机的交互有两种方式：
 * 图形化界面：简单直观容易接受，容易上手操作。
 * 命令行方式：需要有控制台，输入特定指令让计算机完成操作。麻烦，需要记住命令。
+# 环境变量的配置
+* 右击我的电脑--->属性--->高级系统设置---->环境变量---->系统变量---->Path---->编辑
+* 找到C:\Windows\Microsoft.NET\Framework64\v4.0.30319这个地址，将地址复制到变量值之后，确定。
+# 常用dos命令
+* dir 列出当前目录下的文件和文件夹（directory目录）
+* md 创建目录 make directory
+* cd 进入指定目录 change directory
+* cd ..退回到上一级目录
+* cd\直接回到根目录
+* rd 删除目录 remove directory
+* del 删除文件
+* exit 退出dos命令
+* help 寻求帮助
+* ipconfig获取当前主机的ip
+# 类的的简单介绍
+*一个c#程序主要包括一下部分：
+* 命名空间声明（Namespace declaration）
+* class(类)
+* Main函数
+* 字段（或变量）
+* 属性
+* 函数
+* 语句（Statements）&表达式（Expressions）
+* 注释
+
+
+
