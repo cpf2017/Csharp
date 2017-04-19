@@ -30,4 +30,41 @@ class Demo
    }
 }
 ```
+* 其它类型：
+```c
+class Demo
+{
+  public static void Main(string[] args)
+  {
+    //各种整型变量举例，注意初始化值不能超过其取值范围。
+    int number = 10;
+    sbyte s = -3;
+    short sh = 32766;
+    uint ui = 15;
+    long lo = 485566842;
+
+    //浮点型变量举例
+    float f = 2.523f;  //float类型的变量一定要在初始值后面加上后缀 f，否则会被认为是double类型导致等号左右两边类型不一样而报错。
+    double dou = 100.25;  //double类型不需要任何后缀。
+
+    //bool类型变量举例，注意bool类型只有两个值
+    bool bo = true;
+
+    //char类型变量举例，注意char类型的特点
+    char ch = 'a';
+    char c = '8';
+
+    //字符串类型变量举例，注意字符串类型的特点
+    string str = "abcdefg";
+    string stri = "500";
+
+    //可以把每一个变量的值都打印出来，在这里我们值打印两个，其余的大家自己尝试
+    System.Console.WriteLine(bo);
+    System.Console.WriteLine(str);
+  }
+}
+```
+
+
+
 
