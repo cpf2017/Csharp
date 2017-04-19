@@ -51,7 +51,7 @@
 * 注释
 # c# Hello World 实例
 * c#代码是以类的形式去体现的。类：可以简单理解为装c#代码的地方，类是c#代码中最根本的结构。
-、、、c
+```c
 class HelloWorld
 {
   static void Main(string[] args)
@@ -60,8 +60,8 @@ class HelloWorld
       System.Console.WriteLine("Hello World");
   }
 }
-、、、
-**HwlloWorld的注意事项：**
+```
+* **HwlloWorld的注意事项：**
 * Main方法是程序的入口点，保证程序的独立运行。一个c#程序必须要有Main方法，没有就报错。
 * 写代码时必须要注意格式的缩进以及大小写。
 * 不能以查单词的形式去理解代码。
